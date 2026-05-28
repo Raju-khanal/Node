@@ -1,0 +1,13 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Enter Node",
+  "license": "ISC",
+  "author": "Raju Khanal",
+  "type": "commonjs",
+  "main": "Hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Hello.js"
+  }
+}
