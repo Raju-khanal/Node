@@ -4,3 +4,4 @@ const fs = require("fs");
 // fs.writeFile("./test.txt", `${new Date().toLocaleString()} "Raju khanal Ho"`, (err) => { });
 // const status = fs.statSync("./test.txt");
 // fs.appendFileSync("./test.txt", `\n${new Date().toLocaleString()} "RAJU KHANAL"`);
+// fs.unlinkSync("./COPY.txt");
