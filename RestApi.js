@@ -9,7 +9,14 @@ app.route("/api/users/:id").get((req, res) => {
 }).post((req, res) => {
 }).patch((req, res) => {
 }).delete((req, res) => {
-});
+})
+app.get("/api/users", (req, res) => {
+    res.json(users);
+})
+app.get("/api/user", (req, res) => {
+    const name = req.query.name;
+    return res.send(`HELLO ${name}`);
+})
 app.listen(PORT, () => {
     console.log(`SERVER LIVE AT ${PORT}`);
 })
